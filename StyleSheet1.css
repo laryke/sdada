@@ -1,0 +1,111 @@
+﻿html.first {
+    min-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background: -moz-linear-gradient(DarkBlue 0%, LightBlue 36%, White 50%);
+    overflow: hidden;
+}
+div.background {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+img.b {
+    width: 40%;
+    height: 220px;
+    border-radius: 7px;
+}
+
+div.h1text {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial;
+    font-size: 22px;
+    color: whitesmoke;
+}
+div.h2text {
+    position:relative;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial;
+    font-size: 22px;
+    color: whitesmoke;
+}
+nav {
+    padding: 0px 460px;
+    width: 50%;
+}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            padding: 10px;
+            color: black;
+            font-size: 22px;
+            font-family: Calibri;
+            text-decoration: none;
+            display: block;
+        }
+
+li a:hover:active.start {
+    font-weight: 900;
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p.text {
+    position: absolute;
+    left: 78px;
+    right: 78px;
+}
+
+.line {
+    border-top: 1px solid black;
+    line-height: 5px;
+    width: 90%;
+    margin: 0 63px 0;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+    .line.text {
+        font-family: Arial;
+        font-size: 10px;
+    }
+
+.imgFacebook {
+    position: relative;
+    right: 15px;
+}
+
+.imgWikiepdia {
+    position: relative;
+    left: 15px;
+}
+.maijos{
+    position:relative;
+    bottom:45px;
+}
+.forpictures
+{
+    width:25%;
+}
+.firstimage
+{
+    position:relative;
+    left:30px;
+}
